@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - Program entry point
  *
@@ -8,7 +7,6 @@
 int main(void)
 {
 	char ch;
-
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		if (ch != 'e' && ch != 'q')
@@ -17,6 +15,5 @@ int main(void)
 		}
 	} 
 	putchar('\n');
-
-    return 0;
+	return (0);
 }

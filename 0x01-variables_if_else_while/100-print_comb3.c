@@ -7,9 +7,11 @@
 int main(void)
 {
 	int i;
+
 	for (i = 0; i <= 9; i++)
 	{
 		int j;
+		
 		for (j = i + 1; j <= 9; j++)
 		{
 			putchar(i + '0');

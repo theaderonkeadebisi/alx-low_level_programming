@@ -4,7 +4,7 @@
  *
  * Return: 0 on success. Error code otherwise
  */
-int main()
+int main(void)
 {
 	int i;
 

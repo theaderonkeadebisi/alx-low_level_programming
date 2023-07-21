@@ -4,7 +4,7 @@
 * _isupper - uppercase letters
 * @c: function parameter to be checked
 *
-* Return: 0 if success and 1 otherwise
+* Return: 0 or 1
 */
 
 int _isupper(int c)
@@ -13,6 +13,5 @@ int _isupper(int c)
 
 		return (1);
 	else
-
 		return (0);
 }

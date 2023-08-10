@@ -2,9 +2,9 @@
 
 /**
  * string_nconcat - concatenates two strings
- * @n: number of bytes to concatenate
  * @s1: string 1
  * @s2: string 2
+ * @n: number of bytes to concatenate
  * Return: concatenated string
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
